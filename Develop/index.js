@@ -10,6 +10,26 @@ const questions = [
         message: 'Please type your project title.'
     },
     {
+        name:'desc',
+        message: 'Please enter your project description.'
+    },
+    {
+        name:'install',
+        message: 'Please enter installation instructions.'
+    },
+    {
+        name:'usage',
+        message: 'Please enter usage instructions.'
+    },
+    {
+        name:'contribution',
+        message: 'Please add any contributors.'
+    },
+    {
+        name:'tests',
+        message: 'Please enter test instructions.'
+    },
+    {
         name:'license',
         type:'list',
         message:'Please select your license.',
@@ -18,6 +38,14 @@ const questions = [
             value: 'GNU_GPL_v3'
         }],
         default: ['No License']
+    },
+    {
+        name:'github',
+        message:'Please enter your GitHub username.'
+    },
+    {
+        name:'email',
+        message:'Please enter your email.'
     }
 ];
 
